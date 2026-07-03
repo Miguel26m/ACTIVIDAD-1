@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15-Gestión de Estudiantes</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Registro de estudiantes</h1>
+        
+
+        <input type="text" id="nombre" placeholder="Nombre del estudiante">
+        <input type="number" id="calificacion" placeholder="Calificación" min="0" max="100">
+        
+        <button onclick="agregarEstudiante()">Agregar estudiante</button>
+        <button onclick="calcularResultados()">Calcular</button>
+        
+        <input type="text" id="promedio" placeholder="Promedio" readonly>
+        <input type="text" id="maximo" placeholder="Mayor calificación" readonly>
+        <input type="text" id="minimo" placeholder="Menor calificación" readonly>
+    </div>
+
+    <script src="js/ejercicio15.js"></script>
+</body>
+</html>
